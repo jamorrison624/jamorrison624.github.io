@@ -1,0 +1,55 @@
+#firstDiv {
+    width: '100%';
+    height: 500px;
+    background-image: url('../images/hot\ air\ balloons.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+span{
+    color: white;
+    background-color: darkblue;
+    font-size: 40px;
+
+}
+#secondDiv {
+    width: '100%';
+    height: 500px;
+    background-image: url('../images/beach.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#thirdDiv {
+    width: '100%';
+    height: 500px;
+    background-image: url('../images/europe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fourthDiv {
+    width: '100%';
+    height: 500px;
+    background-image: url('../images/greece.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#secondDiv span {
+    background-color: pink;
+    font-size: 75px;
+}
+
+#fourthDiv h1{
+
+    background-color: orange;
+    font-size: 60px;
+    font-style: italic;
+}
+
+#fourthDiv p{
+
+color:white;
+font-size: 48px;
+}

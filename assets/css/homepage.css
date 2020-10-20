@@ -1,0 +1,16 @@
+hr { 
+    color: orange
+}
+p { 
+    color: blue
+}
+#firstbox {
+    width: 200 px;
+    height: 100px;
+    background-color: lightblue
+}
+#secondBox {
+    width: 500px;
+    height:500px;
+    background-color: lawngreen;
+}
