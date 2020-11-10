@@ -24,3 +24,8 @@
     background: lightsalmon;
     color: white;
 }
+
+.saladRow p{
+padding:5px;
+color: blue;
+}
