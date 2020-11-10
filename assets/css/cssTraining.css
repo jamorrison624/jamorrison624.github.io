@@ -223,3 +223,32 @@ a.customLink {
 .shadowText {
     text-shadow: 5px 5px 10px red;
 }
+
+a:active { 
+    background-color: red;
+    color: white;
+  }
+
+ 
+a:link {
+    color: green;
+    text-decoration: underline;
+  }
+  
+  /* visited link */
+  a.stateStyling:visited {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  /* mouse over link */
+  a.stateStyling:hover p {
+   background-color: green;
+    color:white;
+  }
+  
+  /* selected link */
+  a.stateStyling:active {
+   background-color: red;
+    color: white;
+  }
