@@ -224,16 +224,6 @@ a.customLink {
     text-shadow: 5px 5px 10px red;
 }
 
-a:active { 
-    background-color: red;
-    color: white;
-  }
-
- 
-a:link {
-    color: green;
-    text-decoration: underline;
-  }
   
   /* visited link */
   a.stateStyling:visited {
