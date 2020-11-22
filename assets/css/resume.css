@@ -2,3 +2,41 @@
 width: 200px;
 height: auto;
 }
+
+.logo {
+    width: 150px;
+    height:auto
+}
+
+.text {
+ font-family: Helvetica;
+ text-decoration-color: #759CCE;
+}
+
+.text h2 h3 {
+    font-family: Helvetica;
+    text-decoration-color: #759CCE;
+   }
+
+   .text h9 {
+       font-size: small;
+   }
+
+   .text p{
+      
+       line-height: 30px;
+   }
+
+   .textinfo {
+       line-height: 50px;
+       font-kerning: 40px;
+   }
+
+   .qrcode {
+       size: 20px;
+   }
+
+   .body {
+       color: #759CCE;
+       background-color: white;
+   }
