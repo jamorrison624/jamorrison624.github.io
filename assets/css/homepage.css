@@ -1,47 +1,14 @@
-hr { 
-    color: orange
-}
-p { 
-    color: blue
-}
-#firstbox {
-    width: 200 px;
-    height: 100px;
-    background-color: lightblue
-}
-#secondBox {
-    width: 500px;
-    height:500px;
-    background-color: lawngreen;
+.spacing {
+    padding-top: 50px;
+   
 }
 
-#firstBox {
-    width: 200px;
-    background-color: indianred;
-    padding: 20px;
-    margin: 50px;
-    border: 10px green dotted;
+.card-text {
+    font-size: 12px;
 }
 
-.secondBox {
-    width: 100%;
-    height: 500px;
-    background-color: lawngreen;
-    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.5);
-}
-
-#thirdBox {
-    width: 300px;
-    height: 300px;
-    /* background-color: #53D0B3; */
-    margin: -100px;
-    background-image: linear-gradient(90deg, blue, purple);
-}
-
-a.customLink {
-    text-decoration: none;
-}
-
-.shadowText {
-    text-shadow: 5px 5px 10px red;
+.spacingbottom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+ 
 }

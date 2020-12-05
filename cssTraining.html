@@ -4,8 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>css training</title>
-   <!-- Local stylesheet --> <link rel="stylesheet" type="text/css" href="assets/css/cssTraining.css">
+    <title>About Me</title>
+   <!-- Local stylesheet --> 
+   <link rel="stylesheet" type="text/css" href="assets/css/cssTraining.css">
+   <link rel="stylesheet" type="text/css" href="assets/css/shareStyle.css">
        
     <!-- bootstrap stylesheet -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -13,104 +15,69 @@
 </head>
 
 <body>
-     <!--Navigation Bar-->
-     <nav class="navbar navbar-expand-lg navbar-light customNav">
-        <a class="navbar-brand" href="index.html">LOGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Css Training</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="bootstrapExercise.html">Bootstrap Exercise</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="resume.html">Resume</a>
-              </li>
-          </ul>
-         
-        </div>
-      </nav>
-      <!-- End of Navigation Bar-->
-<div id="firstDiv">
-    <a href="index.html"><span>Hot air balloon view </span></a>
+  <br>
+  <a href="index.html"><img src="assets/images/logo.png" alt="Logo" class="responsive center"></a>   
 
-</div>
-
-<div id="secondDiv">
-<span>Beach image</span>
-</div>
-
-<div id="thirdDiv">
-    <span>Europe image</span>
-</div>
-
-<div id="fourthDiv">
-    <h1>Greece image</h1>
-    <br>
-    <br>
-    <br>
-    <p>lets go to the beach</p>
-</div>
-<h1>hello im not being targeted/selected with CSS</h1>
-<section>
-        <div id="sideBar">
-            <ul>
-                <li>This</li>
-                <li>is</li>
-                <li>a</li>
-                <li>sidebar</li>
-            </ul>
-        </div>
-        <div id="mainContent">
-            <h1>Hello</h1>
-            <p class="pinkText">this is our main content</p>
-        </div>
-    </section>
-<section>
-        <div id="leftBox">
-            <img width="200" height="200" src="assets/images/Vanilla-Cupcakes-3.jpg">
-            <h1>awesome image</h1>
-            <p class="pinkText underline textHoverSyle">this is left image</p>
-        </div>
-        <div id="middleBox">
-            <img width="200" height="200" src="assets/images/hot air balloons.jpg">
-            <h1 class="underline">awesome image</h1>
-            <p>this is middle image</p>
-        </div>
-        <div id="rightBox">
-            <p>this is some text</p>
-        </div>
-    </section>
-<div class="flexContainer">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <h1>hello</h1>
+   <br>
+   <!--Navigation Bar-->
+   <nav class="navbar navbar-expand-lg navbar-light" justify="content">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto topnavCentered">
+        <li class="nav-item navleftpadding">
+          <a class="nav-link" href="index.html">Projects</a>
+        </li>
+        <li class="nav-item active navleftpadding">
+          <a class="nav-link text-nowrap" href="#">About Me<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item navleftpadding">
+            <a class="nav-link" href="bootstrapExercise.html">Contact</a>
+          </li>
+          <li class="nav-item navpadding navleftpadding">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+      </ul>
+     
     </div>
-    <a class= "stateStyling" href="https://github.com/jamorrison624" target="_blank">
-        <p>Click here to go to my github account></p>
-    </a>
-<br>
- 
-<div id="footer">
-        <p>this is footer</p>
+  </nav>
+  <!-- End of Navigation Bar-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-1"></div>
+    
+    <div class="col-5 text" alt="responsive" style="font: size 2;vw">
+      <p> <h5>Thank you for taking the time to view my portfolio.</h5>
+        <br>
+         My name is Jordan I received my BFA in Visual Communication Design with a minor in Marketing Management at Cal Poly Pomona. UX/UI design, brand identity, marketing, as well as print and digital media are what I enjoy the most. When I am not working on design projects I am often planning my next trip abroad or working on crafts during my free time.
+      </p>
     </div>
+      <div class="col-5 padding">
+      <img class="img-fluid" alt="Responsive image" style="height:auto; width: 500px;" src="assets/images/Self portrait.jpg"> 
+    </div>
+    <div class="col-1"></div>
+  </div>
+<div class="row">
+  <div class="col-1"></div>
+  <div class="col-5 paragraph">
+    <p> <h6>What's with the cinderblocks? </h6>
+    <br>
+    You might have noticed the mention of a wall or seen cinderblocks throughout my portfolio. As I was creating my logo, I wanted to portray myself and attach a story behind it. The J is holding its ground as I find myself doing in my life with how I carry myself and with my confidence. When looking at the M, the lines are slanting as if a wall is starting to fall down. When first meeting new people, I am very reserved and I keep to myself, but as I start to open up, I break down that wall and show people who I really am. My design work allows me to stay true to who I am as a person and as a designer. Each design I create is a part of who I am and that is why I used cinderblocks to represent me breaking down my wall and showing you who I am.
+    </p>
+  </div>
+  <div class="col-5"></div>
+  <div class="col-1"></div>
+
+</div>
 
 
-
 
 
 
+</div>
 </body>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>

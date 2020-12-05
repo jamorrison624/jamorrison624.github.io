@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Exercise</title>
+    <title>Contact</title>
     <!-- local stylesheet-->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrapExercise.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/shareStyle.css">
    
     <!-- bootstrap stylesheet -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -15,155 +16,66 @@
 </head>
 
 <body>
-    <!--Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light customNav">
-        <a class="navbar-brand" href="index.html">LOGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Projects <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cssTraining.html">Css Training</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="#">Bootstrap Exercise</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="resume.html">Resume</a>
-              </li>
-          </ul>
-         
-        </div>
-      </nav>
-      <!-- End of Navigation Bar-->
- <div class="container-fluid bearBentoBox">
-    <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-9"> 
-        <p>Veggies</p>
-    </div>
+  <br>
+  <a href="index.html"><img src="assets/images/logo.png" alt="Logo" class="responsive center"></a>   
 
-    <div class="col-sm-6 col-md-8 col-lg-3">
-        <p>Rice</p>
+   <br>
+   <!--Navigation Bar-->
+   <nav class="navbar navbar-expand-lg navbar-light" justify="content">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto topnavCentered">
+        <li class="nav-item navleftpadding">
+          <a class="nav-link" href="index.html">Projects</a>
+        </li>
+        <li class="nav-item navleftpadding">
+          <a class="nav-link text-nowrap" href="cssTraining.html">About Me</a>
+        </li>
+        <li class="nav-item active navleftpadding">
+            <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item navpadding navleftpadding">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+      </ul>
+     
     </div>
+  </nav>
+  <!-- End of Navigation Bar-->
+
+      <div class="container-fluid body">
+        <div class="row">
+          <div class="col-2"> </div>
+            <div class="col-8">
+        <form>
+            <div class="form-group center form">
+                <label for="exampleInputEmail1">Name</label>
+                <input type="name" class="form-control" id="name" aria-describedby="name">
+               
+            </div>
+            <div class="form-group center">
+                <label for="phoneField">Email</label>
+                <input type="email" class="form-control" id="emailField">
+            </div>
+            <div class="form-group center">
+                <label for="emaiLetter">Message</label>
+                <textarea class="form-control" id="emaiLetter" rows="7"></textarea>
+                <br>
+                <a class="btn btn-primary" href="mailTo: jamorrison@cpp.edu">Submit</a>
+            </div>
+        </form>
+
+      </div>
+    <div class="col-2"></div>
+  </div>
 </div>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-9"> 
-            <p class="veggieText">Veggies</p>
-        </div>
-    
-        <div class="col-sm-6 col-md-8 col-lg-3">
-            <p class="riceText">Rice</p>
-        </div>
-    </div>
-</div>
-<div class="row saladRow">
-    <div class="col">
-        <p>lettuce</p>
-        <p>tomato</p>
-        <p>cucumber</p>
+  </div>
+ 
 
 
-    </div>
-
-</div>
-<div class="container regBentox">
-    <div class="row mainDish">
-        <div class="col-sm-6 col-md-4 col-lg-9">
-            <p>noodle</p>
-        </div>
-
-        <div class="col-sm-6 col-md-8 col-lg-3">
-            <p>meat</p>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="row deseartRow">
-        <div class="col-sm-6 col-md-4 col-lg-9">
-            <p>cheese cake</p>
-        </div>
-
-        <div class="col-sm-6 col-md-8 col-lg-3">
-            <p>cupcake</p>
-        </div>
-    </div>
-</div>
-
-
-<!-- bootstrap verticel alignment -->
-
-<div class="container gridExercise"> 
-    <h2>Bootstrap vertical alignment</h2>
-    <div class="row align-items-center parentTarget">
-        <div class="col"> 
-            first item
-        </div>
-        <div class="col"> 
-            second item
-        </div>
-        <div class="col"> 
-            third item
-        </div>
-    </div>
-
-</div>
-
-<!-- BS horizontal alignment-->
-<div class="container gridExercise" >
-    <h2> Bootstrap horizontal alignment</h2>
-<div class="row height100">
-    <div class="col-4 col-md-6">
-        first col
-    </div>
-    <div class="col-4 col-md-3">
-        second col
-    </div>
-    <div class="col-4 col-md-3">
-        third col
-    </div>
-
-</div>
-
-</div>
-</div>
-
- <!-- build out div exercise -->
- <div class="container divExercise">
-    <div class="row customRow firstRow">
-        <div class="col">
-            first 
-        </div>  
-        <div class="col">
-            second 
-        </div> 
-        <div class="col">
-            third 
-        </div> 
-        <div class="col">
-            fourth 
-        </div> 
-    </div>
-<br>
-    <div class="row customRow secondRow">
-        <div class="col-12 col-sm-12 col-md-2 col-lg-4">
-            first col
-        </div>
-        <div class="col-12 col-sm-12 col-md-7 col-lg-6">
-            second col
-        </div>
-        <div class="col-12 col-sm-12 col-md-3 col-lg-2">
-            third col
-        </div>
-    </div>
-</div>
 
 </body>
 

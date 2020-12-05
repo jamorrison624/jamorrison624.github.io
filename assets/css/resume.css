@@ -40,3 +40,11 @@ height: auto;
        color: #759CCE;
        background-color: white;
    }
+
+   /* Media Queriers */
+   @media (max-width: 768px) {
+    .insertclassnamehere {
+
+    }
+
+  
