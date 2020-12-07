@@ -9,10 +9,41 @@
 }
 
 .paragraph {
-    font-size: 11px;
-    padding-bottom: 90px;
+    font-size: 12px;
+    padding-bottom: 50px;
 }
 
 .paragraph h6 {
     font-size: 13px;
 }
+
+ /* social media icons  */
+.fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+    border-radius: 60%;
+
+  }
+  
+  /* hover effect  */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+ 
+  
+  
+  .fa-linkedin {
+    background: #8caad6;
+    color: white;
+  }
+  
+ 
+  .fa-github {
+    background: #8caad6;
+    color: white;
+  }
